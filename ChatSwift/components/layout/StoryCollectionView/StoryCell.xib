@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoryCell" customModule="ChatSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="avatar" destination="ht0-Wb-35D" id="kpI-LI-YSs"/>
+                <outlet property="bgImage" destination="LRw-Lt-Kbl" id="UeI-Aa-Hnb"/>
+                <outlet property="contentCel" destination="evG-mK-qqb" id="yBU-p0-SRa"/>
+                <outlet property="name" destination="g6M-YW-yYz" id="uKS-Wp-8vh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="evG-mK-qqb">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="256"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LRw-Lt-Kbl">
+                    <rect key="frame" x="0.0" y="0.0" width="220" height="256"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ht0-Wb-35D">
+                    <rect key="frame" x="15" y="15" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="2uA-n5-hyW"/>
+                        <constraint firstAttribute="height" constant="55" id="zBa-RP-XjY"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6M-YW-yYz">
+                    <rect key="frame" x="15" y="219.5" width="46" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="g6M-YW-yYz" firstAttribute="leading" secondItem="ND4-cl-t9Z" secondAttribute="leading" constant="15" id="BR0-5b-9A2"/>
+                <constraint firstItem="LRw-Lt-Kbl" firstAttribute="top" secondItem="ND4-cl-t9Z" secondAttribute="top" id="NdX-ZC-ehR"/>
+                <constraint firstAttribute="trailing" secondItem="LRw-Lt-Kbl" secondAttribute="trailing" id="Wps-1W-AMz"/>
+                <constraint firstItem="ND4-cl-t9Z" firstAttribute="bottom" secondItem="g6M-YW-yYz" secondAttribute="bottom" constant="15" id="hfj-OP-vnR"/>
+                <constraint firstItem="ht0-Wb-35D" firstAttribute="leading" secondItem="ND4-cl-t9Z" secondAttribute="leading" constant="15" id="iDV-yM-xbz"/>
+                <constraint firstItem="ND4-cl-t9Z" firstAttribute="bottom" secondItem="LRw-Lt-Kbl" secondAttribute="bottom" id="oo2-cO-KFE"/>
+                <constraint firstItem="ht0-Wb-35D" firstAttribute="top" secondItem="ND4-cl-t9Z" secondAttribute="top" constant="15" id="u9k-cE-192"/>
+                <constraint firstItem="LRw-Lt-Kbl" firstAttribute="leading" secondItem="ND4-cl-t9Z" secondAttribute="leading" id="uA7-Vc-EZy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ND4-cl-t9Z"/>
+            <point key="canvasLocation" x="75.200000000000003" y="-179.01049475262371"/>
+        </view>
+    </objects>
+</document>

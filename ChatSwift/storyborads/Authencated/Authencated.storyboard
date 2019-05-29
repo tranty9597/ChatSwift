@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h5r-Db-tav">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ZDw-m5-G5B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h5r-Db-tav" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Uvn-Vu-tz3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YVJ-VS-bZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.600000000000001" y="68.815592203898049"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="qpa-H1-8ge">
+            <objects>
+                <viewController id="fvc-eg-pNv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LOz-sW-mNT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWM-OV-UX8" customClass="VideoCall" customModule="ChatSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qWM-OV-UX8" firstAttribute="trailing" secondItem="bGT-rR-iif" secondAttribute="trailing" id="GQ1-p2-40B"/>
+                            <constraint firstItem="qWM-OV-UX8" firstAttribute="top" secondItem="LOz-sW-mNT" secondAttribute="top" id="jNQ-Kf-98M"/>
+                            <constraint firstItem="qWM-OV-UX8" firstAttribute="leading" secondItem="bGT-rR-iif" secondAttribute="leading" id="jcR-KU-DbN"/>
+                            <constraint firstItem="qWM-OV-UX8" firstAttribute="bottom" secondItem="bGT-rR-iif" secondAttribute="bottom" id="rYQ-MF-fb0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bGT-rR-iif"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="lG5-G4-7tQ"/>
+                    <navigationItem key="navigationItem" id="Nja-SV-QQb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MoB-yx-CP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.59999999999999" y="920.68965517241384"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="qaK-gq-Ak2">
+            <objects>
+                <viewController id="BDv-uH-zKK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="asP-hE-HLj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HBI-wT-MC2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="sWL-aN-GJk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qha-i4-vTW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="941"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Dss-LT-1CL">
+            <objects>
+                <viewController id="Nnb-os-jag" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8TJ-0o-3zQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LG4-Ij-7En"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="FmN-tU-I9a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yWR-hH-xKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2052" y="921"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Gmz-RO-nM8">
+            <objects>
+                <viewController id="kLr-LC-t8i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iYN-1N-nXr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="v6n-tD-VLA"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="fFN-dZ-1n5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="foW-o1-cSX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2983" y="921"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="xNG-vN-cWX">
+            <objects>
+                <viewController storyboardIdentifier="NewsFeedTabController" id="CgY-GA-bxJ" customClass="NewsFeedTabController" customModule="ChatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ogk-GI-AEA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5EC-rk-q7g">
+                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pRy-SA-pfI">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="50" height="379"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="NewFeedCell" id="Xas-2Q-W4U" customClass="NewFeed" customModule="ChatSwift" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="379" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="NewFeedCollectionHeader" id="ARu-oS-bPK">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="379"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bUd-Jw-KbT" customClass="AddNewFeed" customModule="ChatSwift" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="10" width="375" height="100"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="ulg-ud-Z92"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QKQ-b3-tTo" customClass="StoryCollectionView" customModule="ChatSwift" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="120" width="375" height="250"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="250" id="jNA-Cg-k8L"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="bUd-Jw-KbT" secondAttribute="trailing" id="2P9-LQ-Bs3"/>
+                                        <constraint firstItem="QKQ-b3-tTo" firstAttribute="leading" secondItem="ARu-oS-bPK" secondAttribute="leading" id="4uf-nz-2Kv"/>
+                                        <constraint firstItem="QKQ-b3-tTo" firstAttribute="top" secondItem="bUd-Jw-KbT" secondAttribute="bottom" constant="10" id="9eW-Li-N7q"/>
+                                        <constraint firstAttribute="trailing" secondItem="QKQ-b3-tTo" secondAttribute="trailing" id="M6K-5a-5wA"/>
+                                        <constraint firstItem="bUd-Jw-KbT" firstAttribute="top" secondItem="ARu-oS-bPK" secondAttribute="top" constant="10" id="fFE-0E-4p0"/>
+                                        <constraint firstItem="bUd-Jw-KbT" firstAttribute="leading" secondItem="ARu-oS-bPK" secondAttribute="leading" id="gnB-Fy-MED"/>
+                                    </constraints>
+                                </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="CgY-GA-bxJ" id="GA7-gI-cZJ"/>
+                                    <outlet property="delegate" destination="CgY-GA-bxJ" id="6tg-kG-b5b"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mW7-fO-eik" customClass="BrandBar" customModule="ChatSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="rhy-CO-NI0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mW7-fO-eik" firstAttribute="top" secondItem="ogk-GI-AEA" secondAttribute="top" id="2tS-ZG-3o5"/>
+                            <constraint firstItem="mW7-fO-eik" firstAttribute="leading" secondItem="q1h-ib-Lb3" secondAttribute="leading" id="4dM-Qh-4Hf"/>
+                            <constraint firstItem="5EC-rk-q7g" firstAttribute="leading" secondItem="q1h-ib-Lb3" secondAttribute="leading" id="Ahc-hA-MhB"/>
+                            <constraint firstItem="5EC-rk-q7g" firstAttribute="trailing" secondItem="q1h-ib-Lb3" secondAttribute="trailing" id="sQM-uc-IcU"/>
+                            <constraint firstItem="mW7-fO-eik" firstAttribute="trailing" secondItem="q1h-ib-Lb3" secondAttribute="trailing" id="td9-Fa-Oqh"/>
+                            <constraint firstItem="5EC-rk-q7g" firstAttribute="bottom" secondItem="q1h-ib-Lb3" secondAttribute="bottom" id="uep-SE-mgd"/>
+                            <constraint firstItem="5EC-rk-q7g" firstAttribute="top" secondItem="mW7-fO-eik" secondAttribute="bottom" constant="8" id="xTa-WV-TaP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="q1h-ib-Lb3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="bod-74-5Ae"/>
+                    <connections>
+                        <outlet property="newFeedCollection" destination="5EC-rk-q7g" id="mg4-Oa-OfF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LkP-nC-eKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-759.20000000000005" y="919.79010494752629"/>
+        </scene>
+        <!--Dashboard Controller-->
+        <scene sceneID="yR8-pD-4pl">
+            <objects>
+                <tabBarController storyboardIdentifier="DashboardController" automaticallyAdjustsScrollViewInsets="NO" id="8za-gu-oqh" customClass="DashboardController" customModule="ChatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8j5-lC-gyf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CgY-GA-bxJ" kind="relationship" relationship="viewControllers" id="Dl8-ef-iVJ"/>
+                        <segue destination="fvc-eg-pNv" kind="relationship" relationship="viewControllers" id="Yah-on-QoW"/>
+                        <segue destination="BDv-uH-zKK" kind="relationship" relationship="viewControllers" id="jII-rd-pnl"/>
+                        <segue destination="Nnb-os-jag" kind="relationship" relationship="viewControllers" id="02q-Mh-Naf"/>
+                        <segue destination="kLr-LC-t8i" kind="relationship" relationship="viewControllers" id="1Gt-wc-t1O"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eeO-tP-Ab8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1140" y="68.815592203898049"/>
+        </scene>
+    </scenes>
+</document>
